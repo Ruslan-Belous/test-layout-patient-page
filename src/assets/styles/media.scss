@@ -1,0 +1,97 @@
+@media (min-width: 1201px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    .doctor-info-middle {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .feedback-form-wrapp {
+      position: static;
+    }
+    .rate-item__star {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    .doctor-info-top {
+      flex-direction: column;
+      display: flex;
+      text-align: center;
+      margin: 0;
+      .doctor-info-top__average-raiting {
+        margin: 0;
+      }
+    }
+    .doctor-info-middle__photo-geo-wrapp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .doc-photo {
+        margin-bottom: 20px;
+      }
+    }
+    .feedback-form-wrapp {
+      .feedback__introduce {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        .feedback__checkbox {
+          input {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .feedback__input-wrapp {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .feedback__give-raiting {
+        align-items: self-start;
+        margin: 15px 0;
+      }
+      .feedback__add-feedback {
+        display: flex;
+        flex-direction: column;
+        p {
+          margin: 10px;
+        }
+      }
+      .feedback__feedback-textarea-wrapp {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: none;
+  }
+}
